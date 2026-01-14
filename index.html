@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mental Health & Wellness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌱 Student Mental Health Tracker</h1>
+
+    <!-- Mood Selection -->
+    <div class="card">
+        <h2>How are you feeling today?</h2>
+        <button class="mood happy">😊 Happy</button>
+        <button class="mood sad">😔 Sad</button>
+        <button class="mood stressed">😫 Stressed</button>
+        <p id="response"></p>
+    </div>
+
+    <!-- Motivation (Initially Hidden) -->
+    <div class="card hidden" id="motivationCard">
+        <h2>💬 Motivation for You</h2>
+        <p id="quote"></p>
+    </div>
+
+    <!-- Stress Relief (Initially Hidden) -->
+    <div class="card hidden" id="tipCard">
+        <h2>🧘 Stress-Relief Tip</h2>
+        <p id="tip"></p>
+    </div>
+
+    <!-- Progress Chart -->
+    <div class="card">
+        <h2>📊 Mood Progress</h2>
+        <canvas id="chart" width="300" height="200"></canvas>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

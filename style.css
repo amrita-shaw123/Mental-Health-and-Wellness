@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f7f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2d6a4f;
+}
+
+.card {
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.mood {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.happy {
+    background: #b7e4c7;
+}
+
+.sad {
+    background: #ffd6a5;
+}
+
+.stressed {
+    background: #ffadad;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}
+.hidden {
+    display: none;
+}
+
+#response {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2d6a4f;
+}
